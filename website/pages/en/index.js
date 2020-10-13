@@ -90,15 +90,6 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
-    );
-
     const TryOut = () => (
       <Block id="try">
         {[
@@ -147,16 +138,22 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'Estrutura de diretórios e gerador de CRUD obedecendo as melhores práticas (ESLint / Prettier / ES7/8/9/etc)',
+            image: `${baseUrl}img/react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Front-end',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: 'PostgreSQL, gerador de CRUD, collections de exemplo do Postman, envio de e-mails e mais',
+            image: `${baseUrl}img/adonis.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Back-end',
+          },
+          {
+            content: 'Organização de rotas comuns, fluxo de login, controle de diferentes ambientes (.env), hooks para facilitar "infinite scroll" e mais',
+            image: `${baseUrl}img/react-native.png`,
+            imageAlign: 'top',
+            title: 'Mobile',
           },
         ]}
       </Block>
@@ -197,7 +194,6 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
           <LearnHow />
           <TryOut />
           <Description />
