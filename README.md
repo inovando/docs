@@ -1,2 +1,2 @@
 # docs
-> 📘 Templates/Good Practices Documentation
+> 📘  Templates/Good Practices Documentation
