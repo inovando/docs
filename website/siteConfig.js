@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'Inovando', // Title for your website.
-  tagline: 'Templates/Good Practices Documentation',
+  tagline: 'Documentação de boas práticas e templates',
   url: 'https://docs.inovan.do/', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
