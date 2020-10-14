@@ -76,7 +76,7 @@ class Index extends React.Component {
         id={props.id}
         background={props.background}>
         <GridBlock
-          align="center"
+          align={props.align}
           contents={props.children}
           layout={props.layout}
         />
@@ -112,7 +112,7 @@ class Index extends React.Component {
     );
 
     const Features = () => (
-      <Block layout="fourColumn">
+      <Block layout="fourColumn" align="center">
         {[
           {
             content: 'Estrutura de diretórios e gerador de CRUD obedecendo as melhores práticas (ESLint / Prettier / ES7/8/9/etc)',
