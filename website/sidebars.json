@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "Inovando": ["intro"],
+    "Back-end": ["back/intro"],
+    "Front-end": ["front/intro"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
