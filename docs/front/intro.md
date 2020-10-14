@@ -3,7 +3,7 @@ id: intro
 title: Introdução
 ---
 
-![Tecnologias Front-end](/img/front-techs.png)
+![Tecnologias Front-end](/docs/img/front-techs.png)
 
 Antes de colocar a mão na massa, é preferível que você ao menos faça uma rápida leitura nas bibliotecas base que usamos e que já vem configuradas no template:
 
